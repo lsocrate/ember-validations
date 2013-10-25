@@ -270,7 +270,7 @@ confirmPassword: {
 ## Single property validation
 
 Sometime you could want to validate only one property.
-You can do this by calling `validateProperty('attributeName')` instead of `validate()`.
+You can do this by calling `validate('attributename')`.
 It will also update the `isValid` property if the validity of the object changes.
 
 ## Runtime validations
